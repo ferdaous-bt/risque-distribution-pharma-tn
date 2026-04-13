@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environnements virtuels
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Données sensibles et lourdes
+data_ml/
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# Modèles sauvegardés
+models/
+*.model
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Ngrok token (ne jamais commiter !)
+.env
+secrets.txt
+token.txt
+
+# Fichiers temporaires
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Distribution Python
+*.egg-info/
+dist/
+build/
+
+# Coverage
+.coverage
+htmlcov/
